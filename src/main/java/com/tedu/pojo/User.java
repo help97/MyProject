@@ -3,7 +3,7 @@ package com.tedu.pojo;
 public class User {
     private Integer id;
     private String userName;
-    private String password;
+    private String passWord;
 
     @Override
     public String toString() {
@@ -11,7 +11,7 @@ public class User {
         return "User{" +
                 "id=" + id +
                 ", userName='" + userName + '\'' +
-                ", password='" + password + '\'' +
+                ", password='" + passWord + '\'' +
                 '}';
     }
 
@@ -32,10 +32,10 @@ public class User {
     }
 
     public String getPassword() {
-        return password;
+        return passWord;
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        this.passWord = password;
     }
 }
